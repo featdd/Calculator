@@ -1,0 +1,11 @@
+*.class
+*.jar
+*.war
+*.ear
+build/*
+nbbuild/*
+dist/*
+nbdist/*
+nbproject/private/*
+build.xml
+manifest.mf
