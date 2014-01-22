@@ -239,6 +239,7 @@
     <Component class="javax.swing.JButton" name="btnCalc">
       <Properties>
         <Property name="text" type="java.lang.String" value="="/>
+        <Property name="toolTipText" type="java.lang.String" value="calc"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCalcActionPerformed"/>
@@ -247,6 +248,7 @@
     <Component class="javax.swing.JButton" name="btnDivision">
       <Properties>
         <Property name="text" type="java.lang.String" value="/"/>
+        <Property name="toolTipText" type="java.lang.String" value="divide"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDivisionActionPerformed"/>
@@ -255,6 +257,7 @@
     <Component class="javax.swing.JButton" name="btnMultiplication">
       <Properties>
         <Property name="text" type="java.lang.String" value="*"/>
+        <Property name="toolTipText" type="java.lang.String" value="multiply"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMultiplicationActionPerformed"/>
@@ -263,6 +266,7 @@
     <Component class="javax.swing.JButton" name="btnAddition">
       <Properties>
         <Property name="text" type="java.lang.String" value="+"/>
+        <Property name="toolTipText" type="java.lang.String" value="add"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAdditionActionPerformed"/>
@@ -271,6 +275,7 @@
     <Component class="javax.swing.JButton" name="btnSubtraction">
       <Properties>
         <Property name="text" type="java.lang.String" value="-"/>
+        <Property name="toolTipText" type="java.lang.String" value="subtract"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSubtractionActionPerformed"/>
@@ -279,6 +284,7 @@
     <Component class="javax.swing.JButton" name="btnClear">
       <Properties>
         <Property name="text" type="java.lang.String" value="C"/>
+        <Property name="toolTipText" type="java.lang.String" value="Clear the display"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnClearActionPerformed"/>
@@ -287,6 +293,7 @@
     <Component class="javax.swing.JButton" name="btnMemoryClear">
       <Properties>
         <Property name="text" type="java.lang.String" value="MC"/>
+        <Property name="toolTipText" type="java.lang.String" value="clear the memory"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMemoryClearActionPerformed"/>
@@ -295,6 +302,7 @@
     <Component class="javax.swing.JButton" name="btnMemoryAdd">
       <Properties>
         <Property name="text" type="java.lang.String" value="M+"/>
+        <Property name="toolTipText" type="java.lang.String" value="add value to memory"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMemoryAddActionPerformed"/>
@@ -303,6 +311,7 @@
     <Component class="javax.swing.JButton" name="btnMemorySubtraction">
       <Properties>
         <Property name="text" type="java.lang.String" value="M-"/>
+        <Property name="toolTipText" type="java.lang.String" value="subtract value from the memory"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMemorySubtractionActionPerformed"/>
@@ -311,6 +320,7 @@
     <Component class="javax.swing.JButton" name="btnMemoryRevert">
       <Properties>
         <Property name="text" type="java.lang.String" value="MR"/>
+        <Property name="toolTipText" type="java.lang.String" value="revert the value in the memory"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMemoryRevertActionPerformed"/>

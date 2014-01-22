@@ -134,6 +134,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         btnCalc.setText("=");
+        btnCalc.setToolTipText("calc");
         btnCalc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCalcActionPerformed(evt);
@@ -141,6 +142,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         btnDivision.setText("/");
+        btnDivision.setToolTipText("divide");
         btnDivision.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnDivisionActionPerformed(evt);
@@ -148,6 +150,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         btnMultiplication.setText("*");
+        btnMultiplication.setToolTipText("multiply");
         btnMultiplication.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMultiplicationActionPerformed(evt);
@@ -155,6 +158,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         btnAddition.setText("+");
+        btnAddition.setToolTipText("add");
         btnAddition.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAdditionActionPerformed(evt);
@@ -162,6 +166,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         btnSubtraction.setText("-");
+        btnSubtraction.setToolTipText("subtract");
         btnSubtraction.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSubtractionActionPerformed(evt);
@@ -169,6 +174,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         btnClear.setText("C");
+        btnClear.setToolTipText("Clear the display");
         btnClear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnClearActionPerformed(evt);
@@ -176,6 +182,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         btnMemoryClear.setText("MC");
+        btnMemoryClear.setToolTipText("clear the memory");
         btnMemoryClear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMemoryClearActionPerformed(evt);
@@ -183,6 +190,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         btnMemoryAdd.setText("M+");
+        btnMemoryAdd.setToolTipText("add value to memory");
         btnMemoryAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMemoryAddActionPerformed(evt);
@@ -190,6 +198,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         btnMemorySubtraction.setText("M-");
+        btnMemorySubtraction.setToolTipText("subtract value from the memory");
         btnMemorySubtraction.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMemorySubtractionActionPerformed(evt);
@@ -197,6 +206,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         btnMemoryRevert.setText("MR");
+        btnMemoryRevert.setToolTipText("revert the value in the memory");
         btnMemoryRevert.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMemoryRevertActionPerformed(evt);
